@@ -22,9 +22,7 @@ func (iter *SliceIterator[T]) Next() opt.Opt[T] {
 }
 
 func ToSlice[T any, I Iter[T]](iter I) []T {
-	slice := make([]T, 0)
-	ForEach(iter, func(v T) {
-		slice = append(slice, v)
+	return Reduce(iter, make([]T, 0), func(slice []T, v T) []T {
+		return append(slice, v)
 	})
-	return slice
 }
