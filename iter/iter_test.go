@@ -29,13 +29,12 @@ func ExampleFind() {
 		"Ken Thompson",
 		"Rob Pike",
 	})
-	nonRob, ok := iter.Find(designers, func(designer string) bool {
+	nonRob := iter.Find(designers, func(designer string) bool {
 		return !strings.HasPrefix(designer, "Rob")
-	}).Let()
-	if !ok {
-		panic("I'm surrounded by Robs!")
+	})
+	if designer, ok := nonRob.Let(); ok {
+		fmt.Println(designer)
 	}
-	fmt.Println(nonRob)
 	// Output: Ken Thompson
 }
 
