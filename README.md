@@ -17,4 +17,4 @@ if you're having thoughts.](https://www.rust-lang.org/tools/install)
 # Usage
 
 Please do not use this cursed module. You can view the documentation locally
-using [godoc](https://pkg.go.dev/golang.org/x/tools/cmd/godoc).
+using [gotip doc](https://pkg.go.dev/cmd/doc).
