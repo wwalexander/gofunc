@@ -16,5 +16,5 @@ if you're having thoughts.](https://www.rust-lang.org/tools/install)
 
 # Usage
 
-Please do not use this cursed module. If you want to stare into the void, you
-can view the [documentation](https://pkg.go.dev/github.com/wwalexander/gofunc).
+Please do not use this cursed module. You can view the documentation locally
+using [godoc](https://pkg.go.dev/golang.org/x/tools/cmd/godoc).
