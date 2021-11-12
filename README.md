@@ -17,4 +17,5 @@ if you're having thoughts.](https://www.rust-lang.org/tools/install)
 # Usage
 
 Please do not use this cursed module. You can view the documentation locally
-using [gotip doc](https://pkg.go.dev/cmd/doc).
+using [gotip doc](https://pkg.go.dev/cmd/doc). Examples are provided in
+gofunc_test.go.
